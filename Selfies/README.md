@@ -12,12 +12,12 @@ Se eligió esta arquitectura, ya que se adapta de manera sencilla a las tecnolog
 con propósitos diferentes. Cabe destacar que es fácil no seguir esta arquitectura, si se utilizan inapropiadamente los `ViewController`, debido a que ellos solo deben de manejar 
 la respuesta a los eventos, y no deben de contener el *view layer*
 
-#### Model:
+#### Model
 
 Contiene la estructura de los datos a utilizar, principalmente las del servicio para las gráficas,
 al servicio de `NetworkingService` y `FirebaseService`, los cuales proveen información al *controller layer*, para que la vea el usuario.
 
-#### View:
+#### View
 
 Incluye las celdas y su layout, se maneja el que y cómo de la interface.
 
