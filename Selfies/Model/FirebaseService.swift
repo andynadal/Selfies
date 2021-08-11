@@ -12,7 +12,7 @@ final class FirebaseService {
     private var database: DatabaseReference?
     private var storage = Storage.storage().reference()
     
-    var tableView: MainTableViewController!
+    weak var tableView: MainTableViewController!
     
     func retrieveBackgroundColor() {
         database = Database.database().reference()
@@ -30,7 +30,15 @@ final class FirebaseService {
     }
     
     func uploadSelfie(with name: String?, using selfie: UIImage?) {
-        guard let name = name, let selfie = selfie, let data = selfie.jpegData(compressionQuality: 0.5) else { return }
+        guard let name = name, let selfie = selfie, let data = selfie.jpegData(compressionQuality: 0.5) else {
+            let alert = UIAlertController(title: "Aviso", message: "Por favor escriba un nombre y tome una foto.", preferredStyle: .alert)
+            let okButton = UIAlertAction(title: "OK", style: .default) { _ in
+                alert.dismiss(animated: true)
+            }
+            alert.addAction(okButton)
+            tableView.present(alert, animated: true)
+            return
+        }
         
         let selfieRef = storage.child("selfies/\(name)-\(UUID().uuidString).jpg")
         let metadata = StorageMetadata(dictionary: ["user": name, "timestamp": Date()])

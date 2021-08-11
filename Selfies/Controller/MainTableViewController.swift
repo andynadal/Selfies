@@ -20,6 +20,8 @@ final class MainTableViewController: UITableViewController {
     lazy var uploadCell = UploadSelfieCell()
     
     override func viewDidLoad() {
+        firebase.tableView = self
+        
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 80.0
         

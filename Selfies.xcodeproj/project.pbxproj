@@ -161,6 +161,7 @@
 			children = (
 				BA4AC97E26C3489A008956F8 /* ServiceResponse.swift */,
 				BA4AC98026C34934008956F8 /* NetworkService.swift */,
+				BA7E478726C4598A00CAAE87 /* FirebaseService.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,7 +171,6 @@
 			children = (
 				BA4AC96C26C323DE008956F8 /* MainTableViewController.swift */,
 				BA7E477526C42A4100CAAE87 /* ChartsTableViewController.swift */,
-				BA7E478726C4598A00CAAE87 /* FirebaseService.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
