@@ -58,5 +58,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Esta App utiliza tu camara para que puedas tomar selfies y subirlas a la nube.</string>
 </dict>
 </plist>

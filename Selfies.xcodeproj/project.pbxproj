@@ -3,29 +3,64 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01034CFB3864B0E21D21A182 /* Pods_Selfies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49A87DD20ACCA321AFDF181 /* Pods_Selfies.framework */; };
 		BA4AC95026C32344008956F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4AC94F26C32344008956F8 /* AppDelegate.swift */; };
 		BA4AC95226C32344008956F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4AC95126C32344008956F8 /* SceneDelegate.swift */; };
 		BA4AC95426C32344008956F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4AC95326C32344008956F8 /* ContentView.swift */; };
-		BA4AC95726C32344008956F8 /* Selfies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA4AC95526C32344008956F8 /* Selfies.xcdatamodeld */; };
 		BA4AC95926C3234B008956F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4AC95826C3234B008956F8 /* Assets.xcassets */; };
 		BA4AC95C26C3234B008956F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4AC95B26C3234B008956F8 /* Preview Assets.xcassets */; };
 		BA4AC95F26C3234B008956F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4AC95D26C3234B008956F8 /* LaunchScreen.storyboard */; };
+		BA4AC96D26C323DE008956F8 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4AC96C26C323DE008956F8 /* MainTableViewController.swift */; };
+		BA4AC96F26C33072008956F8 /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4AC96E26C33072008956F8 /* TextFieldCell.swift */; };
+		BA4AC97126C3330A008956F8 /* SelfieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4AC97026C3330A008956F8 /* SelfieCell.swift */; };
+		BA4AC97426C33460008956F8 /* DebugLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4AC97326C33460008956F8 /* DebugLog.swift */; };
+		BA4AC97626C3376A008956F8 /* ShowChartsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4AC97526C3376A008956F8 /* ShowChartsCell.swift */; };
+		BA4AC97F26C3489A008956F8 /* ServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4AC97E26C3489A008956F8 /* ServiceResponse.swift */; };
+		BA4AC98126C34934008956F8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4AC98026C34934008956F8 /* NetworkService.swift */; };
+		BA7E476A26C417B100CAAE87 /* UploadSelfieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E476926C417B100CAAE87 /* UploadSelfieCell.swift */; };
+		BA7E476D26C41B6400CAAE87 /* swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = BA7E476C26C41B6400CAAE87 /* swiftlint.yml */; };
+		BA7E477226C429EB00CAAE87 /* UIColor+HexInitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E477126C429EB00CAAE87 /* UIColor+HexInitExtension.swift */; };
+		BA7E477626C42A4100CAAE87 /* ChartsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E477526C42A4100CAAE87 /* ChartsTableViewController.swift */; };
+		BA7E477826C42B4B00CAAE87 /* ChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E477726C42B4B00CAAE87 /* ChartCell.swift */; };
+		BA7E477A26C4369500CAAE87 /* PercentageValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E477926C4369500CAAE87 /* PercentageValueFormatter.swift */; };
+		BA7E477E26C439B100CAAE87 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E477D26C439B100CAAE87 /* TextCell.swift */; };
+		BA7E478626C447ED00CAAE87 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA7E478526C447ED00CAAE87 /* GoogleService-Info.plist */; };
+		BA7E478826C4598A00CAAE87 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E478726C4598A00CAAE87 /* FirebaseService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D4AD8634477FB16241207AC /* Pods-Selfies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Selfies.release.xcconfig"; path = "Target Support Files/Pods-Selfies/Pods-Selfies.release.xcconfig"; sourceTree = "<group>"; };
+		5360B3EC6D2CA9F6C373A2DD /* Pods-Selfies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Selfies.debug.xcconfig"; path = "Target Support Files/Pods-Selfies/Pods-Selfies.debug.xcconfig"; sourceTree = "<group>"; };
 		BA4AC94C26C32344008956F8 /* Selfies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Selfies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4AC94F26C32344008956F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA4AC95126C32344008956F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BA4AC95326C32344008956F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BA4AC95626C32344008956F8 /* Selfies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Selfies.xcdatamodel; sourceTree = "<group>"; };
 		BA4AC95826C3234B008956F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA4AC95B26C3234B008956F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA4AC95E26C3234B008956F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA4AC96026C3234B008956F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4AC96C26C323DE008956F8 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		BA4AC96E26C33072008956F8 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		BA4AC97026C3330A008956F8 /* SelfieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieCell.swift; sourceTree = "<group>"; };
+		BA4AC97326C33460008956F8 /* DebugLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugLog.swift; sourceTree = "<group>"; };
+		BA4AC97526C3376A008956F8 /* ShowChartsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowChartsCell.swift; sourceTree = "<group>"; };
+		BA4AC97926C33EC1008956F8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BA4AC97E26C3489A008956F8 /* ServiceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceResponse.swift; sourceTree = "<group>"; };
+		BA4AC98026C34934008956F8 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		BA7E476926C417B100CAAE87 /* UploadSelfieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadSelfieCell.swift; sourceTree = "<group>"; };
+		BA7E476C26C41B6400CAAE87 /* swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftlint.yml; sourceTree = "<group>"; };
+		BA7E477126C429EB00CAAE87 /* UIColor+HexInitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexInitExtension.swift"; sourceTree = "<group>"; };
+		BA7E477526C42A4100CAAE87 /* ChartsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsTableViewController.swift; sourceTree = "<group>"; };
+		BA7E477726C42B4B00CAAE87 /* ChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartCell.swift; sourceTree = "<group>"; };
+		BA7E477926C4369500CAAE87 /* PercentageValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageValueFormatter.swift; sourceTree = "<group>"; };
+		BA7E477D26C439B100CAAE87 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		BA7E478526C447ED00CAAE87 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BA7E478726C4598A00CAAE87 /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		D49A87DD20ACCA321AFDF181 /* Pods_Selfies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Selfies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +68,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01034CFB3864B0E21D21A182 /* Pods_Selfies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D4E67645CE21078F209A66C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D49A87DD20ACCA321AFDF181 /* Pods_Selfies.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91EE613A2843A4D29168AE33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5360B3EC6D2CA9F6C373A2DD /* Pods-Selfies.debug.xcconfig */,
+				1D4AD8634477FB16241207AC /* Pods-Selfies.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BA4AC94326C32344008956F8 = {
 			isa = PBXGroup;
 			children = (
 				BA4AC94E26C32344008956F8 /* Selfies */,
 				BA4AC94D26C32344008956F8 /* Products */,
+				91EE613A2843A4D29168AE33 /* Pods */,
+				4D4E67645CE21078F209A66C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +113,20 @@
 		BA4AC94E26C32344008956F8 /* Selfies */ = {
 			isa = PBXGroup;
 			children = (
-				BA4AC94F26C32344008956F8 /* AppDelegate.swift */,
-				BA4AC95126C32344008956F8 /* SceneDelegate.swift */,
+				BA7E478526C447ED00CAAE87 /* GoogleService-Info.plist */,
+				BA7E477026C427D800CAAE87 /* Utilities */,
+				BA4AC97226C333F2008956F8 /* Debugging */,
+				BA4AC96826C3239A008956F8 /* Model */,
+				BA4AC96726C32395008956F8 /* View */,
+				BA4AC96926C323AD008956F8 /* Controller */,
+				BA4AC96626C32384008956F8 /* AppLifecycle */,
 				BA4AC95326C32344008956F8 /* ContentView.swift */,
 				BA4AC95826C3234B008956F8 /* Assets.xcassets */,
 				BA4AC95D26C3234B008956F8 /* LaunchScreen.storyboard */,
 				BA4AC96026C3234B008956F8 /* Info.plist */,
-				BA4AC95526C32344008956F8 /* Selfies.xcdatamodeld */,
 				BA4AC95A26C3234B008956F8 /* Preview Content */,
+				BA4AC97926C33EC1008956F8 /* README.md */,
+				BA7E476C26C41B6400CAAE87 /* swiftlint.yml */,
 			);
 			path = Selfies;
 			sourceTree = "<group>";
@@ -78,6 +139,72 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BA4AC96626C32384008956F8 /* AppLifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				BA4AC94F26C32344008956F8 /* AppDelegate.swift */,
+				BA4AC95126C32344008956F8 /* SceneDelegate.swift */,
+			);
+			path = AppLifecycle;
+			sourceTree = "<group>";
+		};
+		BA4AC96726C32395008956F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA4AC96B26C323C8008956F8 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA4AC96826C3239A008956F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA4AC97E26C3489A008956F8 /* ServiceResponse.swift */,
+				BA4AC98026C34934008956F8 /* NetworkService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA4AC96926C323AD008956F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA4AC96C26C323DE008956F8 /* MainTableViewController.swift */,
+				BA7E477526C42A4100CAAE87 /* ChartsTableViewController.swift */,
+				BA7E478726C4598A00CAAE87 /* FirebaseService.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BA4AC96B26C323C8008956F8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BA4AC96E26C33072008956F8 /* TextFieldCell.swift */,
+				BA4AC97026C3330A008956F8 /* SelfieCell.swift */,
+				BA4AC97526C3376A008956F8 /* ShowChartsCell.swift */,
+				BA7E476926C417B100CAAE87 /* UploadSelfieCell.swift */,
+				BA7E477726C42B4B00CAAE87 /* ChartCell.swift */,
+				BA7E477D26C439B100CAAE87 /* TextCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BA4AC97226C333F2008956F8 /* Debugging */ = {
+			isa = PBXGroup;
+			children = (
+				BA4AC97326C33460008956F8 /* DebugLog.swift */,
+			);
+			path = Debugging;
+			sourceTree = "<group>";
+		};
+		BA7E477026C427D800CAAE87 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BA7E477126C429EB00CAAE87 /* UIColor+HexInitExtension.swift */,
+				BA7E477926C4369500CAAE87 /* PercentageValueFormatter.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA4AC96326C3234B008956F8 /* Build configuration list for PBXNativeTarget "Selfies" */;
 			buildPhases = (
+				81409AC4AF56F7D7D5019911 /* [CP] Check Pods Manifest.lock */,
 				BA4AC94826C32344008956F8 /* Sources */,
 				BA4AC94926C32344008956F8 /* Frameworks */,
 				BA4AC94A26C32344008956F8 /* Resources */,
+				DDB867B65F9052B9106FE428 /* [CP] Embed Pods Frameworks */,
+				BA7E476B26C41B1C00CAAE87 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -136,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA4AC95F26C3234B008956F8 /* LaunchScreen.storyboard in Resources */,
+				BA7E476D26C41B6400CAAE87 /* swiftlint.yml in Resources */,
+				BA7E478626C447ED00CAAE87 /* GoogleService-Info.plist in Resources */,
 				BA4AC95C26C3234B008956F8 /* Preview Assets.xcassets in Resources */,
 				BA4AC95926C3234B008956F8 /* Assets.xcassets in Resources */,
 			);
@@ -143,15 +275,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		81409AC4AF56F7D7D5019911 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Selfies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA7E476B26C41B1C00CAAE87 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nif which swiftlint >/dev/null; then\n  swiftlint --config \"$SRCROOT/Selfies/swiftlint.yml\"\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		DDB867B65F9052B9106FE428 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Selfies/Pods-Selfies-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Selfies/Pods-Selfies-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Selfies/Pods-Selfies-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA4AC94826C32344008956F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA7E477226C429EB00CAAE87 /* UIColor+HexInitExtension.swift in Sources */,
 				BA4AC95026C32344008956F8 /* AppDelegate.swift in Sources */,
+				BA4AC96F26C33072008956F8 /* TextFieldCell.swift in Sources */,
+				BA7E476A26C417B100CAAE87 /* UploadSelfieCell.swift in Sources */,
+				BA4AC97426C33460008956F8 /* DebugLog.swift in Sources */,
 				BA4AC95226C32344008956F8 /* SceneDelegate.swift in Sources */,
+				BA7E477826C42B4B00CAAE87 /* ChartCell.swift in Sources */,
+				BA4AC97126C3330A008956F8 /* SelfieCell.swift in Sources */,
+				BA7E477A26C4369500CAAE87 /* PercentageValueFormatter.swift in Sources */,
+				BA4AC97626C3376A008956F8 /* ShowChartsCell.swift in Sources */,
 				BA4AC95426C32344008956F8 /* ContentView.swift in Sources */,
-				BA4AC95726C32344008956F8 /* Selfies.xcdatamodeld in Sources */,
+				BA4AC96D26C323DE008956F8 /* MainTableViewController.swift in Sources */,
+				BA7E478826C4598A00CAAE87 /* FirebaseService.swift in Sources */,
+				BA7E477626C42A4100CAAE87 /* ChartsTableViewController.swift in Sources */,
+				BA4AC98126C34934008956F8 /* NetworkService.swift in Sources */,
+				BA7E477E26C439B100CAAE87 /* TextCell.swift in Sources */,
+				BA4AC97F26C3489A008956F8 /* ServiceResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +492,7 @@
 		};
 		BA4AC96426C3234B008956F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5360B3EC6D2CA9F6C373A2DD /* Pods-Selfies.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -308,6 +514,7 @@
 		};
 		BA4AC96526C3234B008956F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D4AD8634477FB16241207AC /* Pods-Selfies.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -349,19 +556,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		BA4AC95526C32344008956F8 /* Selfies.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				BA4AC95626C32344008956F8 /* Selfies.xcdatamodel */,
-			);
-			currentVersion = BA4AC95626C32344008956F8 /* Selfies.xcdatamodel */;
-			path = Selfies.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = BA4AC94426C32344008956F8 /* Project object */;
 }
