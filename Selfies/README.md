@@ -73,7 +73,14 @@ el ciclo de vida del `UIViewController` nos ayuda a lograr este objetivo.
 
 1. viewDidLoad()
 2. viewWillAppearI()
-3. 
+3. viewWillLayoutSubviews()
+4. viewDidLayoutSubviews()
+5. viewDidAppear()
+
+Para cuando se termina de usar:
+
+6. viewWillDisappear()
+7. viewDidDisappear()
 
 ## Explique el ciclo de vida de una Aplicación:
 

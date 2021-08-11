@@ -10,7 +10,6 @@
 		01034CFB3864B0E21D21A182 /* Pods_Selfies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49A87DD20ACCA321AFDF181 /* Pods_Selfies.framework */; };
 		BA4AC95026C32344008956F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4AC94F26C32344008956F8 /* AppDelegate.swift */; };
 		BA4AC95226C32344008956F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4AC95126C32344008956F8 /* SceneDelegate.swift */; };
-		BA4AC95426C32344008956F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4AC95326C32344008956F8 /* ContentView.swift */; };
 		BA4AC95926C3234B008956F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4AC95826C3234B008956F8 /* Assets.xcassets */; };
 		BA4AC95C26C3234B008956F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4AC95B26C3234B008956F8 /* Preview Assets.xcassets */; };
 		BA4AC95F26C3234B008956F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4AC95D26C3234B008956F8 /* LaunchScreen.storyboard */; };
@@ -38,7 +37,6 @@
 		BA4AC94C26C32344008956F8 /* Selfies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Selfies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4AC94F26C32344008956F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA4AC95126C32344008956F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA4AC95326C32344008956F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA4AC95826C3234B008956F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA4AC95B26C3234B008956F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA4AC95E26C3234B008956F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -120,7 +118,6 @@
 				BA4AC96726C32395008956F8 /* View */,
 				BA4AC96926C323AD008956F8 /* Controller */,
 				BA4AC96626C32384008956F8 /* AppLifecycle */,
-				BA4AC95326C32344008956F8 /* ContentView.swift */,
 				BA4AC95826C3234B008956F8 /* Assets.xcassets */,
 				BA4AC95D26C3234B008956F8 /* LaunchScreen.storyboard */,
 				BA4AC96026C3234B008956F8 /* Info.plist */,
@@ -151,7 +148,12 @@
 		BA4AC96726C32395008956F8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BA4AC96B26C323C8008956F8 /* Cells */,
+				BA4AC96E26C33072008956F8 /* TextFieldCell.swift */,
+				BA4AC97026C3330A008956F8 /* SelfieCell.swift */,
+				BA4AC97526C3376A008956F8 /* ShowChartsCell.swift */,
+				BA7E476926C417B100CAAE87 /* UploadSelfieCell.swift */,
+				BA7E477726C42B4B00CAAE87 /* ChartCell.swift */,
+				BA7E477D26C439B100CAAE87 /* TextCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -173,19 +175,6 @@
 				BA7E477526C42A4100CAAE87 /* ChartsTableViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		BA4AC96B26C323C8008956F8 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				BA4AC96E26C33072008956F8 /* TextFieldCell.swift */,
-				BA4AC97026C3330A008956F8 /* SelfieCell.swift */,
-				BA4AC97526C3376A008956F8 /* ShowChartsCell.swift */,
-				BA7E476926C417B100CAAE87 /* UploadSelfieCell.swift */,
-				BA7E477726C42B4B00CAAE87 /* ChartCell.swift */,
-				BA7E477D26C439B100CAAE87 /* TextCell.swift */,
-			);
-			path = Cells;
 			sourceTree = "<group>";
 		};
 		BA4AC97226C333F2008956F8 /* Debugging */ = {
@@ -350,7 +339,6 @@
 				BA4AC97126C3330A008956F8 /* SelfieCell.swift in Sources */,
 				BA7E477A26C4369500CAAE87 /* PercentageValueFormatter.swift in Sources */,
 				BA4AC97626C3376A008956F8 /* ShowChartsCell.swift in Sources */,
-				BA4AC95426C32344008956F8 /* ContentView.swift in Sources */,
 				BA4AC96D26C323DE008956F8 /* MainTableViewController.swift in Sources */,
 				BA7E478826C4598A00CAAE87 /* FirebaseService.swift in Sources */,
 				BA7E477626C42A4100CAAE87 /* ChartsTableViewController.swift in Sources */,
